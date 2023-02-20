@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RB_Moto_2
+#
+DEF RB_Moto_2 A 0 40 Y Y 1 F N
+F0 "A" 350 300 50 H V C CNN
+F1 "RB_Moto_2" 350 200 50 H V C CNN
+F2 "" 350 300 50 H I C CNN
+F3 "" 350 300 50 H I C CNN
+DRAW
+T 0 350 400 50 0 0 0 "(Pins are only shown for this specific project)" Normal 0 C C
+T 0 450 500 50 0 0 0 "See data sheet if confused about which 5V connection to use." Normal 0 C C
+S -100 150 800 -450 0 1 0 f
+X 11 11 900 50 100 L 50 50 1 1 I
+X 12 12 900 -100 100 L 50 50 1 1 I
+X 13 13 900 -250 100 L 50 50 1 1 I
+X 15 15 900 -400 100 L 50 50 1 1 I
+X +5V_Input ~ -200 -100 100 R 50 50 1 1 I
+X +5V_Pi ~ -200 -200 100 R 50 50 1 1 I
+X GND ~ -200 0 100 R 50 50 1 1 I
+X Stepper_1 ~ 450 -550 100 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
